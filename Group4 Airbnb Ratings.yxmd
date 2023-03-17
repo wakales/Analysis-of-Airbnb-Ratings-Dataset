@@ -1,0 +1,490 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="162" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\nandi\Downloads\AirbnbGrp4_CleanedData.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>AirbnbGrp4_CleanedData.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Listing_ID" size="254" source="File: C:\Users\nandi\Downloads\AirbnbGrp4_CleanedData.csv" type="V_String" />
+            <Field name="Name" size="254" source="File: C:\Users\nandi\Downloads\AirbnbGrp4_CleanedData.csv" type="V_String" />
+            <Field name="Host_ID" size="254" source="File: C:\Users\nandi\Downloads\AirbnbGrp4_CleanedData.csv" type="V_String" />
+            <Field name="Host_Name" size="254" source="File: C:\Users\nandi\Downloads\AirbnbGrp4_CleanedData.csv" type="V_String" />
+            <Field name="Host_Response_Rate" size="254" source="File: C:\Users\nandi\Downloads\AirbnbGrp4_CleanedData.csv" type="V_String" />
+            <Field name="Host_Is_Superhost" size="254" source="File: C:\Users\nandi\Downloads\AirbnbGrp4_CleanedData.csv" type="V_String" />
+            <Field name="Host_total_listings_count" size="254" source="File: C:\Users\nandi\Downloads\AirbnbGrp4_CleanedData.csv" type="V_String" />
+            <Field name="Street" size="254" source="File: C:\Users\nandi\Downloads\AirbnbGrp4_CleanedData.csv" type="V_String" />
+            <Field name="City" size="254" source="File: C:\Users\nandi\Downloads\AirbnbGrp4_CleanedData.csv" type="V_String" />
+            <Field name="Neighbourhood_cleansed" size="254" source="File: C:\Users\nandi\Downloads\AirbnbGrp4_CleanedData.csv" type="V_String" />
+            <Field name="State" size="254" source="File: C:\Users\nandi\Downloads\AirbnbGrp4_CleanedData.csv" type="V_String" />
+            <Field name="Country" size="254" source="File: C:\Users\nandi\Downloads\AirbnbGrp4_CleanedData.csv" type="V_String" />
+            <Field name="latitude" size="254" source="File: C:\Users\nandi\Downloads\AirbnbGrp4_CleanedData.csv" type="V_String" />
+            <Field name="longitude" size="254" source="File: C:\Users\nandi\Downloads\AirbnbGrp4_CleanedData.csv" type="V_String" />
+            <Field name="Property_type" size="254" source="File: C:\Users\nandi\Downloads\AirbnbGrp4_CleanedData.csv" type="V_String" />
+            <Field name="Room_type" size="254" source="File: C:\Users\nandi\Downloads\AirbnbGrp4_CleanedData.csv" type="V_String" />
+            <Field name="Accommodates" size="254" source="File: C:\Users\nandi\Downloads\AirbnbGrp4_CleanedData.csv" type="V_String" />
+            <Field name="Bathrooms" size="254" source="File: C:\Users\nandi\Downloads\AirbnbGrp4_CleanedData.csv" type="V_String" />
+            <Field name="Bedrooms" size="254" source="File: C:\Users\nandi\Downloads\AirbnbGrp4_CleanedData.csv" type="V_String" />
+            <Field name="Amenities" size="254" source="File: C:\Users\nandi\Downloads\AirbnbGrp4_CleanedData.csv" type="V_String" />
+            <Field name="Price" size="254" source="File: C:\Users\nandi\Downloads\AirbnbGrp4_CleanedData.csv" type="V_String" />
+            <Field name="Minimum_nights" size="254" source="File: C:\Users\nandi\Downloads\AirbnbGrp4_CleanedData.csv" type="V_String" />
+            <Field name="Maximum_nights" size="254" source="File: C:\Users\nandi\Downloads\AirbnbGrp4_CleanedData.csv" type="V_String" />
+            <Field name="Availability_365" size="254" source="File: C:\Users\nandi\Downloads\AirbnbGrp4_CleanedData.csv" type="V_String" />
+            <Field name="Calendar_last_scraped" size="254" source="File: C:\Users\nandi\Downloads\AirbnbGrp4_CleanedData.csv" type="V_String" />
+            <Field name="Number_of_reviews" size="254" source="File: C:\Users\nandi\Downloads\AirbnbGrp4_CleanedData.csv" type="V_String" />
+            <Field name="Last_Review_Date" size="254" source="File: C:\Users\nandi\Downloads\AirbnbGrp4_CleanedData.csv" type="V_String" />
+            <Field name="Review_Scores_Rating" size="254" source="File: C:\Users\nandi\Downloads\AirbnbGrp4_CleanedData.csv" type="V_String" />
+            <Field name="Review_Scores_Accuracy" size="254" source="File: C:\Users\nandi\Downloads\AirbnbGrp4_CleanedData.csv" type="V_String" />
+            <Field name="Review_Scores_Cleanliness" size="254" source="File: C:\Users\nandi\Downloads\AirbnbGrp4_CleanedData.csv" type="V_String" />
+            <Field name="Review_Scores_Checkin" size="254" source="File: C:\Users\nandi\Downloads\AirbnbGrp4_CleanedData.csv" type="V_String" />
+            <Field name="Review_Scores_Communication" size="254" source="File: C:\Users\nandi\Downloads\AirbnbGrp4_CleanedData.csv" type="V_String" />
+            <Field name="Review_Scores_Location" size="254" source="File: C:\Users\nandi\Downloads\AirbnbGrp4_CleanedData.csv" type="V_String" />
+            <Field name="Review_Scores_Value" size="254" source="File: C:\Users\nandi\Downloads\AirbnbGrp4_CleanedData.csv" type="V_String" />
+            <Field name="Reviews_per_month" size="254" source="File: C:\Users\nandi\Downloads\AirbnbGrp4_CleanedData.csv" type="V_String" />
+            <Field name="AddressKey" size="254" source="File: C:\Users\nandi\Downloads\AirbnbGrp4_CleanedData.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="450" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Country" action="GroupBy" rename="Country" />
+            <SummarizeField field="Listing_ID" action="Count" rename="Count" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="450" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Property_type" action="GroupBy" rename="Property_type" />
+            <SummarizeField field="Listing_ID" action="Count" rename="Count" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="462" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Room_type" action="GroupBy" rename="Room_type" />
+            <SummarizeField field="Room_type" action="Count" rename="Count" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="474" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Listing_ID" action="Count" rename="Count" />
+            <SummarizeField field="Price" action="Sum" rename="Sum_Price" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="330" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Price" selected="True" type="Int64" size="8" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="330" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>IsNull</Operator>
+            <Field>Listing_ID</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2022-12-09 17:15:00</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2022-12-09 17:15:00</StartDate>
+              <EndDate>2022-12-09 17:15:00</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>IsNull([Listing_ID])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="546" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\nandi\AppData\Local\Temp\Engine_9928_af94af1059628b4482d3192a49331965_\Engine_9928_a4d56eebe051124a9db31afd2cade909~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="558" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\nandi\AppData\Local\Temp\Engine_9928_af94af1059628b4482d3192a49331965_\Engine_9928_0a6596fc4f01164c8f2033f10b135d63~.yxdb</TempFile>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="558" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\nandi\AppData\Local\Temp\Engine_9928_af94af1059628b4482d3192a49331965_\Engine_9928_7b8b8f6f0201684cb2635de513089e73~.yxdb</TempFile>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="582" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+          <TempFile>C:\Users\nandi\AppData\Local\Temp\Engine_9928_af94af1059628b4482d3192a49331965_\Engine_9928_24fb3af9730cd144b24acd3eb118dfb1~.yxdb</TempFile>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="354" y="522" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="Host_ID" />
+            <Field field="Host_Name" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="486" y="486" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\nandi\AppData\Local\Temp\Engine_9928_af94af1059628b4482d3192a49331965_\Engine_9928_9024a3b94a08e64d9cfacc31caf7e8df~.yxdb</TempFile>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="486" y="558" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+          <TempFile>C:\Users\nandi\AppData\Local\Temp\Engine_9928_af94af1059628b4482d3192a49331965_\Engine_9928_d2605ec4f4a3454db9df556f753cf741~.yxdb</TempFile>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="678" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="AddressKey" order="Descending" />
+            <Field field="Price" order="Descending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>AddressKey - Descending
+Price - Descending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="774" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\nandi\AppData\Local\Temp\Engine_9928_af94af1059628b4482d3192a49331965_\Engine_9928_8a1480939426694aa53dc1bb828cc1f9~.yxdb</TempFile>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="False" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Unique" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Duplicates" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Airbnb_Cleaned Data Analysis</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="d5f33afe-de81-48ea-bfc3-41d1b3d9139a" />
+      <Telemetry>
+        <PreviousWorkflowId value="b7815d7e-6b11-4ca8-8a3b-d8d0bbb8c299" />
+        <OriginWorkflowId value="b7815d7e-6b11-4ca8-8a3b-d8d0bbb8c299" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
